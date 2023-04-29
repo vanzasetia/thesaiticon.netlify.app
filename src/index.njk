@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: The Saiticon
+description: A country with people and robots.
+---
+
+<h2>Here are people in The Saiticon.</h2>
+<ul>
+  {% for citizen in collections.citizen %}
+    <li>
+      <a href="{{ citizen.url }}">{{ citizen.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
