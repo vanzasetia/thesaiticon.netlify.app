@@ -1,7 +1,7 @@
 ---
 layout: layouts/general.njk
 title: The Saiticon
-description: A country with people and robots.
+description: "Special Unique : A country with people and robots."
 ---
 
 Thesaiticon is a country located on the Australian Island.  This country is communist.  Even though the Thesaiticon country has a small population, it is a developed country and has succeeded in building a country with abundant wealth.  The country has a currency called SaiCon ( SC ).  The value of 1 SC is equivalent to 0.15$.
