@@ -5,10 +5,6 @@
   <title>{% if page.url == "/" %}{{ title }}{% else %}{{ title }} — The Saiticon{% endif %}</title>
 </head>
 <body>
-  <main>
-    <h1>{{ title }}</h1>
-    <p>{{ description }}</p>
-    {{ content | safe }}
-  </main>
+  {{ content | safe }}
 </body>
 </html>
