@@ -4,6 +4,8 @@ const { DateTime } = require("luxon");
 const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("./src/style.css");
+
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
