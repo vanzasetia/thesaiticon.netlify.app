@@ -1,0 +1,5 @@
+<ul>
+  {% for citizen in collections.citizen %}
+  <li><a href="{{ citizen.url }}">{{ citizen.data.title }}</a></li>
+  {% endfor %}
+</ul>
