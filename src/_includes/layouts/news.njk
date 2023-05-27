@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+
+<main>
+  <h1>{{ title }}</h1>
+  <p><em>Written by {{ writer }}. Published on {{ date | readableDate }}.</em></p>
+  <p>{{ description }}</p>
+  {{ content | safe }}
+</main>

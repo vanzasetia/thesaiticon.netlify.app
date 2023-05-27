@@ -1,15 +1,27 @@
 ---
 layout: layouts/general.njk
-title: The Saiticon
-description: "Special Unique : A country with people and robots."
+title: Welcome to Saiticon Official Website!
+description: Humans and robots live peacefully together here.
 ---
 
-Thesaiticon is a country located on the Australian Island.  This country is communist.  Even though the Thesaiticon country has a small population, it is a developed country and has succeeded in building a country with abundant wealth.  The country has a currency called SaiCon ( SC ).  The value of 1 SC is equivalent to 0.15$.
+Saiticon is located on the continent of Australia. It has a population of over one million and is a developed country. It has also managed to build a country of great wealth. 
 
- Thesaiticon country has a good economic status, abundant natural wealth, and various tourist attractions such as beaches, mountains, museums, and forests.  Therefore, the Thesaiticon country is a recommendation for foreign visitors / tourists who come.
+The currency is SaiCon (SC). 1SC is equal to 1000IDR.
 
- This country has cooperated with big countries such as the United States, China, Japan and Indonesia.  The hope is that the Thesaiticon country can become a successful country, and become the richest country in the eyes of the world.
+Saiticon has a good economic status, abundant natural wealth and various tourist attractions such as beaches, mountains, museums and forests.
 
-## Here are people in The Saiticon
+Saiticon cooperates with other countries such as the United States, China, Japan, and Indonesia to build a better world.
+
+Saiticon country will become a successful country and the richest country in the eyes of the world in 2050.
+
+## News
+
+Our citizens write about their experiences and what happens at Saiticon.
+
+<ul class="news">{% include "news/list.njk" %}</ul>
+
+## Profiles
+
+Here are {{ collections.citizen.length }} profiles of citizens at Saiticon.
 
 {% include "citizen/list.njk" %}

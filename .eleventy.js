@@ -9,9 +9,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-    return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(
-      format || "dd LLLL yyyy"
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "dd LLLL yyyy"
     );
   });
 

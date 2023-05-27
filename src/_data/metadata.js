@@ -1,5 +1,5 @@
 module.exports = {
-  title: "The Saiticon",
+  title: "Saiticon",
   url: "https://thesaiticon.netlify.app",
-  description: "A country with robots and humans."
+  description: "Humans and robots live peacefully together here."
 };

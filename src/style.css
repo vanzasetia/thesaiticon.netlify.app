@@ -1,6 +1,7 @@
 *,
 *::after,
 *::before {
+  box-sizing: border-box;
   color: inherit;
 }
 
@@ -10,6 +11,12 @@ body {
   color: #ddd;
   line-height: 1.5;
   font-size: calc(1rem + 0.5vw);
+}
+
+h1 + *,
+h2 + *,
+h3 + * {
+  margin-top: -0.75em;
 }
 
 li + li {
@@ -37,4 +44,21 @@ li + li {
   display: inline-block;
   padding: 0.5rem;
   border: 0.1rem solid;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  justify-content: flex-start;
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.news > li {
+  margin-top: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 0.2rem solid;
+  border-bottom: 0.2rem solid;
 }
