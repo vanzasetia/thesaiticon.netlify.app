@@ -1,6 +1,8 @@
+<ul class="news">
 {% for news in collections.news | reverse %}
 	<li>
-    <h3><a href="{{ news.url }}">{{ news.data.title }}</a></h3>
-    <p>{{ news.data.description }}</p>
+      <h3><a href="{{ news.url }}">{{ news.data.title }}</a></h3>
+      <p>{{ news.data.description }}</p>
 	</li>
 {% endfor %}
+</ul>

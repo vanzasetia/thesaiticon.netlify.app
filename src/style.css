@@ -13,6 +13,10 @@ body {
   font-size: calc(1rem + 0.5vw);
 }
 
+ul > p {
+  display: none;
+}
+
 h1 + *,
 h2 + *,
 h3 + * {
@@ -48,7 +52,7 @@ li + li {
 
 .news {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
   justify-content: flex-start;
   gap: 1rem;
   list-style: none;

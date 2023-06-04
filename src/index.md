@@ -18,7 +18,7 @@ Saiticon country will become a successful country and the richest country in the
 
 Our citizens write about their experiences and what happens at Saiticon.
 
-<ul class="news">{% include "news/list.njk" %}</ul>
+{% include "news/list.njk" %}
 
 ## Profiles
 
